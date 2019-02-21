@@ -27,7 +27,7 @@ public class AlbumsUpdateScheduler {
     }
 
 
-    @Scheduled(initialDelay = 5 * SECONDS, fixedRate = 15 * SECONDS)
+//    @Scheduled(initialDelay = 5 * SECONDS, fixedRate = 15 * SECONDS)
     public void run() {
         try {
             logger.debug("Checking for albums task to start");

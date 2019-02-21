@@ -1,7 +1,9 @@
 package org.superbiz.moviefun;
 
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.superbiz.moviefun.albums.Album;
 import org.superbiz.moviefun.albums.AlbumFixtures;
 import org.superbiz.moviefun.albums.AlbumsBean;
